@@ -1,0 +1,37 @@
+.info-pop-right {
+    display: flex;
+    position: relative; /* Change to relative to manage the absolute children inside */
+}
+
+.info-pop-right > div:first-child {
+    position: relative; /* Keeping this relative as it's the reference point for the next div */
+    z-index: 0;
+    width: 100%; /* Set a width for the image div */
+}
+
+.info-pop-right > div:first-child img {
+    width: 80%; /* Make the image fill the div */
+    height: auto;
+}
+
+.info-pop-right > div:last-child {
+    background-color: white;
+    width: 40%; /* Smaller width than the image div */
+    position: absolute;
+    top: 25%; /* Adjust how much you want the info div to overlap the image */
+    right: -15%; /* Position it on the right side of the image */
+    z-index: 1; /* This ensures it is placed on top of the image */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect to make it pop out */
+    padding: 40px;
+}
+
+.info-pop-right > div:last-child::before {
+    content: '';
+    position: absolute;
+    top: 50%; /* Positions the arrow in the middle of the box */
+    left: -80px; /* Adjusts the position of the arrow, ensuring it's on the left */
+    transform: translateY(-50%); /* Centers the arrow vertically */
+    border-width: 40px; /* Adjusts the size of the triangle */
+    border-style: solid;
+    border-color: transparent white transparent transparent; /* Creates the left-pointing triangle */
+}
