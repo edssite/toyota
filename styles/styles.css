@@ -12,6 +12,7 @@
 
 @import url('../blocks/custom/info-pop-right.css');
 @import url('../blocks/custom/info-pop-left.css');
+@import url('../blocks/custom/banner.css');
 :root {
   /* colors */
   --background-color: white;
