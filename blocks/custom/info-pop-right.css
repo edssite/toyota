@@ -1,6 +1,7 @@
 .info-pop-right {
     display: flex;
     position: relative; /* Change to relative to manage the absolute children inside */
+    text-align: left !important;
 }
 
 .info-pop-right > div:first-child {
@@ -34,4 +35,16 @@
     border-width: 40px; /* Adjusts the size of the triangle */
     border-style: solid;
     border-color: transparent white transparent transparent; /* Creates the left-pointing triangle */
+}
+
+
+
+.info-pop-right > div > div:first-child h3 {
+    font-size: 16px;
+    font-family: toyota-bold;
+}
+
+.info-pop-right > div > div:first-child p {
+    font-size: 16px;
+    font-family: toyota-light;
 }

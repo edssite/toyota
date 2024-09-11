@@ -13,6 +13,16 @@
 @import url('../blocks/custom/info-pop-right.css');
 @import url('../blocks/custom/info-pop-left.css');
 @import url('../blocks/custom/banner.css');
+@import url('../blocks/custom/car-sections.css');
+@import url('../blocks/custom/design.css');
+@import url('../blocks/custom/technology.css');
+@import url('../blocks/custom/performance.css');
+
+
+
+
+
+
 :root {
   /* colors */
   --background-color: white;
