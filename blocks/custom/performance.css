@@ -2,7 +2,7 @@
     background-image: url("../../icons/performance_background.jpg");
     width: 100%;
     background-position: center;
-    height: 1600px;
+    height: 1550px;
     margin-bottom: 0px !important;
     margin-top: 0px !important;
 }
@@ -34,4 +34,43 @@
     justify-content: center; /* Center items vertically */
 
     text-align: center; /* Center text within each element */
+}
+
+
+
+.performance-second-section {
+    background-color: #131C29;
+    height: 1000px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+
+
+}
+
+
+.performance-cards {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+
+    text-align: center; /* Center text within each element */
+}
+
+
+.performance-cards > div {
+    width: 752px;
+    height: 360px;
+    margin: 10px;
+}
+
+.performance-cards > div > div > h5 {
+    color: white;
+    font-size: 25px;
+    font-family: toyota-semi-bold;
+}
+
+.performance-cards > div > div > p:last-child {
+    color: white;
+    font-size: 16px;
+    font-family: toyota-book;
 }

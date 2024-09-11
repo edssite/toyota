@@ -10,7 +10,7 @@
 }
 
 .info-pop-left > div:last-child img {
-    width: 90%; /* Make the image fill the div */
+    width: 70%; /* Make the image fill the div */
     height: auto;
     margin-left: 350px;
 }
