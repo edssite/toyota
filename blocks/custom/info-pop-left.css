@@ -10,7 +10,7 @@
 }
 
 .info-pop-left > div:last-child img {
-    width: 80%; /* Make the image fill the div */
+    width: 70%; /* Make the image fill the div */
     height: auto;
     margin-left: 350px;
 }
@@ -35,4 +35,23 @@
     border-width: 40px; /* Adjusts the size of the triangle */
     border-style: solid;
     border-color: transparent transparent transparent white; /* Creates the left-pointing triangle */
+}
+
+
+
+.info-pop-left > div:first-child > div h3 {
+    font-size: 16px;
+    font-family: toyota-bold;
+}
+
+.info-pop-left > div:first-child > div p {
+    font-size: 16px;
+    font-family: toyota-light;
+}
+
+.info-pop-left {
+    top: 800px; /* Adjust this value to move it further down from the top */
+    left: 0px; /* Adjust this value if you want to move it horizontally */
+    width: 100%; /* Adjust if necessary to control the width */
+    /* Add other styling as needed */
 }

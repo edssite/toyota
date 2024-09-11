@@ -1,0 +1,76 @@
+.performance-first-section {
+    background-image: url("../../icons/performance_background.jpg");
+    width: 100%;
+    background-position: center;
+    height: 1550px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.performance-title > div:nth-of-type(1) h2 {
+    color: white;
+    font-size: 19px;
+    font-family: toyota-bold;
+    border-bottom: 4px solid red;
+    padding-bottom: 15px; /* Add space between text and border */
+}
+
+.performance-title > div:nth-of-type(2) h2 {
+    font-size: 39px;
+    font-family: toyota-bold;
+    color: white;
+}
+
+.performance-title > div:nth-of-type(3) {
+    font-size: 19px;
+    font-family: toyota-light;
+    color: white;
+}
+
+.performance-title {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+
+    text-align: center; /* Center text within each element */
+}
+
+
+
+.performance-second-section {
+    background-color: #131C29;
+    height: 1000px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+
+
+}
+
+
+.performance-cards {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+
+    text-align: center; /* Center text within each element */
+}
+
+
+.performance-cards > div {
+    width: 752px;
+    height: 360px;
+    margin: 10px;
+}
+
+.performance-cards > div > div > h5 {
+    color: white;
+    font-size: 25px;
+    font-family: toyota-semi-bold;
+}
+
+.performance-cards > div > div > p:last-child {
+    color: white;
+    font-size: 16px;
+    font-family: toyota-book;
+}

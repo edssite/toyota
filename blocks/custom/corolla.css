@@ -1,0 +1,154 @@
+.car-banner-corolla-container {
+    background-image: url("../../icons/corolla-banner.jpg");
+    width: 2200px;
+    height: 662px;
+    position: relative; /* Make sure the container is positioned */
+
+}
+
+.car-banner-corolla > div > div h1 {
+    color: white;
+    font-family: toyota-book;
+}
+
+.car-banner-corolla > div > div {
+    position: absolute; /* Position the .car-banner absolutely */
+    bottom: 0; /* Align to the bottom of the container */
+    left: 0; /* Align to the left of the container */
+}
+
+.car-banner-corolla > div > div h1:first-child {
+    font-size: 26px;
+    margin-bottom: 0;
+    margin-left: 30%;
+}
+
+.car-banner-corolla > div > div h1:last-child {
+    font-size: 54px;
+    line-height: 1.3;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-left: 30%;
+    margin-bottom: 20%;
+}
+
+.design-section-corolla {
+    background-image: url("../../icons/corolla-design.jpg");
+    width: 100%;
+    background-position: center;
+    height: 1600px;
+    margin-bottom: 0px !important;
+}
+
+.design-title-corolla > div:nth-of-type(1) h2 {
+    color: white;
+    font-size: 19px;
+    font-family: toyota-bold;
+    border-bottom: 4px solid red;
+    padding-bottom: 15px; /* Add space between text and border */
+}
+
+.design-title-corolla > div:nth-of-type(2) h2 {
+    font-size: 39px;
+    font-family: toyota-bold;
+    color: white;
+}
+
+.design-title-corolla > div:nth-of-type(3) {
+    font-size: 19px;
+    font-family: toyota-light;
+    color: white;
+}
+
+.design-title-corolla {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+
+    text-align: center; /* Center text within each element */
+}
+
+.design-third-card-corolla {
+    background-image: url("../../icons/corolla-interior.jpg");
+    margin-top: 0px !important;
+    height: 1500px;
+    margin-bottom: 0px !important;
+
+}
+
+.design-third-card-corolla > div {
+    width: 625px;
+    padding-top: 1200px !important;
+    margin-left: 0px !important;
+
+}
+
+.design-third-card-corolla > div h3 {
+    margin: 0px !important;
+    font-size: 39px;
+    font-family: toyota-bold;
+    color: white;
+}
+
+.design-third-card-corolla > div p {
+    font-size: 16px;
+    font-family: toyota-book;
+    color: white;
+}
+
+
+.technology-first-section-corolla {
+    background-image: url("../../icons/technology-corolla.jpg");
+
+    background-size: 130% auto; /* Adjust this value as needed */
+    background-position: center top; /* Ensure the top of the image is visible */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin-bottom: 0px !important; /* Keeps the margin setting as it is */
+    width: 100vw; /* Ensures the section takes full viewport width */
+    height: 1370px; /* Adjust height as needed, e.g., 100% or a specific value */
+    overflow: hidden; /* Prevents any overflow from showing */
+    margin-top: 0px !important;
+}
+
+
+.performance-first-section-corolla {
+    background-image: url("../../icons/performance-corolla.jpg");
+    width: 100%;
+    background-position: center;
+    height: 1550px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+
+
+.performance-second-section-corolla {
+    background-color: black;
+    height: 500px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+
+}
+
+.safety-first-section-corolla {
+    background-image: url("../../icons/safety-corolla.jpg");
+    width: 100%;
+    background-position: center;
+    height: 1450px;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.safety-third-section-corolla{
+    background-color: black;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 50px !important;
+}
+
+.design-second-card-corolla {
+    background: linear-gradient(to bottom, #000000, #303436);
+    margin-top: 0px !important;
+    height: 1100px;
+}

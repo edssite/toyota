@@ -1,0 +1,57 @@
+.car-sections{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.car-sections > div {
+    padding: 25px;
+    display: flex;
+    align-items: center; /* Center items vertically within each div */
+    justify-content: center; /* Center items horizontally within each div */
+
+}
+
+.car-sections-container {
+    width: 1713px;
+    height: 62px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 0px;
+
+
+}
+
+
+.car-sections-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+}
+
+
+
+
+
+
+.car-sections > div:first-child > div p {
+    color: #5E6F7D;
+    font-size: 15px;
+    font-family: toyota-semi-bold;
+    display: inline-block; /* Ensures the border does not exceed the content width */
+    border-bottom: 2px solid red; /* Red border beneath the p tag */
+    padding-bottom: 5px; /* Adds space between text and border */
+    margin: 0; /* Remove default margin to prevent spacing issues */
+}
+
+/* Style for the rest of the <p> tags */
+.car-sections > div > div p {
+    color: #5E6F7D;
+    font-size: 15px;
+    font-family: toyota-semi-bold;
+    display: inline-block; /* Ensures the border does not exceed the content width */
+    border-bottom: 2px solid #5E6F7D; /* Black border beneath the p tag */
+    padding-bottom: 5px; /* Adds space between text and border */
+    margin: 0; /* Remove default margin to prevent spacing issues */
+}
